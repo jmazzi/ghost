@@ -85,6 +85,12 @@ Running Tests
 When you're done, they can be restored with
   $ ghost import /path/to/backup.txt
     
+How to Contribute
+=================
+
+* Fork the repository
+* Add new functionality or fix existing bugs
+* Provide specs for the changes
 
 Contributors
 ============
