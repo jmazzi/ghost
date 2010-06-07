@@ -76,7 +76,16 @@ Installation
 ============
 
     sudo gem install ghost
+
+Running Tests
+=============
+* Warning: Running rake spec  will delete all hostnames in the system. Please back them up first using 
+  $ ghost export > /path/to/backup.txt
+
+When you're done, they can be restored with
+  $ ghost import /path/to/backup.txt
     
+
 Contributors
 ============
 
