@@ -80,6 +80,7 @@ Installation
 Running Tests
 =============
 * Warning: Running rake spec  will delete all hostnames in the system. Please back them up first using 
+* Rspec is required to run the test
   $ ghost export > /path/to/backup.txt
 
 When you're done, they can be restored with
